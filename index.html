@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="id" class="scroll-smooth">
+<html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fadiyah Desi Asmawati | Backend Engineer & Systems Developer</title>
-  <meta name="description" content="Portfolio Fadiyah Desi Asmawati - Backend Engineer yang berfokus membangun API scalable, arsitektur database multi-tenant, dan sistem terintegrasi.">
+  <title>Fadiyah Desi Asmawati | Software Engineer</title>
+  <meta name="description" content="Portfolio of Fadiyah Desi Asmawati - Software Engineer specializing in scalable web services, clean architecture, robust APIs, and modern database systems.">
   
   <!-- Open Graph -->
-  <meta property="og:title" content="Fadiyah Desi Asmawati | Backend Engineer">
-  <meta property="og:description" content="Backend Engineer - Membangun sistem web andal, RESTful API, dan database yang terstruktur rapi.">
+  <meta property="og:title" content="Fadiyah Desi Asmawati | Software Engineer">
+  <meta property="og:description" content="Software Engineer crafting reliable backend services, RESTful APIs, and scalable software architectures.">
   <meta property="og:type" content="website">
 
-  <!-- Plus Jakarta Sans & JetBrains Mono Fonts (Human, Clean, Friendly) -->
+  <!-- Plus Jakarta Sans & JetBrains Mono Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -27,16 +27,15 @@
             mono: ['"JetBrains Mono"', 'monospace'],
           },
           colors: {
-            // Palette terinspirasi dari referensi: Putih Modern dengan aksen menyala
-            canvas: '#fbfcfd',
+            canvas: '#fafbfc',
             vibrant: {
               blue: '#2563eb',    // Cobalt Blue
               sky: '#0284c7',     // Sky Blue
               pink: '#f43f5e',    // Vibrant Rose/Pink
               bubblegum: '#ec4899',
-              green: '#10b981',   // Fresh Green Pill
+              green: '#10b981',   // Fresh Green
               purple: '#7c3aed',  // Royal Violet
-              amber: '#f59e0b',   // Bright Yellow/Orange
+              amber: '#f59e0b',   // Bright Amber
             }
           },
           boxShadow: {
@@ -53,21 +52,18 @@
   <script src="https://unpkg.com/lucide@latest"></script>
 
   <style>
-    /* Halus & Bersih */
     body {
       background-color: #fafbfc;
       color: #1e293b;
       overflow-x: hidden;
     }
 
-    /* Doodle Squiggles & Dinding Elemen Alami */
     .doodle-wave {
       position: absolute;
       pointer-events: none;
       z-index: 0;
     }
 
-    /* Device Mockup Frames */
     .browser-frame {
       border: 2px solid #e2e8f0;
       border-radius: 18px;
@@ -120,7 +116,6 @@
       transform: scale(1.03);
     }
 
-    /* Toast */
     #toast {
       transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
     }
@@ -128,30 +123,30 @@
 </head>
 <body class="selection:bg-vibrant-pink/20 selection:text-vibrant-pink relative">
 
-  <!-- ==================== DECORATIVE ARTWORK (Squiggles & Shapes) ==================== -->
-  <!-- Top Left Pink Squiggle Loop -->
+  <!-- ==================== DECORATIVE ARTWORK (Squiggles & Doodles) ==================== -->
+  <!-- Top Left Pink Loop -->
   <svg class="doodle-wave top-6 -left-10 w-44 h-44 text-vibrant-pink/80 sm:w-60 sm:h-60" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M20 70C40 20 120 10 140 60C160 110 90 170 50 140C10 110 40 40 100 30" stroke="currentColor" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
   </svg>
 
-  <!-- Top Right Big Cobalt Blue Doodle -->
+  <!-- Top Right Cobalt Blue Doodle -->
   <svg class="doodle-wave top-8 right-4 w-52 h-52 text-vibrant-blue/70 sm:w-72 sm:h-72" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M50 160C30 110 50 30 100 40C150 50 170 120 130 160C90 200 130 90 170 70" stroke="currentColor" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
   </svg>
 
-  <!-- Mid Green Curlicue -->
+  <!-- Green Curlicue Accent -->
   <svg class="doodle-wave top-[650px] -right-8 w-32 h-32 text-vibrant-green/80" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M80 15C60 40 30 20 40 60C50 90 85 70 80 50" stroke="currentColor" stroke-width="8" stroke-linecap="round"/>
   </svg>
 
-  <!-- Purple Sparkle Star -->
+  <!-- Sparkle Accents -->
   <div class="absolute top-[520px] left-12 text-vibrant-purple/80 text-4xl select-none animate-pulse">✦</div>
   <div class="absolute top-[880px] right-20 text-vibrant-amber text-3xl select-none">★</div>
 
   <!-- Toast Notification -->
   <div id="toast" class="fixed bottom-6 right-6 z-50 transform translate-y-24 opacity-0 flex items-center gap-3 px-5 py-3 rounded-2xl bg-slate-900 text-white shadow-2xl text-sm font-semibold">
     <i data-lucide="check-circle" class="w-4 h-4 text-emerald-400"></i>
-    <span id="toast-message">Email berhasil disalin!</span>
+    <span id="toast-message">Email copied to clipboard!</span>
   </div>
 
   <!-- ==================== STICKY NAVIGATION ==================== -->
@@ -168,28 +163,28 @@
             <span class="font-extrabold text-slate-900 text-base tracking-tight">Fadiyah Desi</span>
             <span class="text-[10px] font-bold bg-vibrant-pink/10 text-vibrant-pink px-2 py-0.5 rounded-full">Dev</span>
           </div>
-          <p class="text-[11px] font-medium text-slate-500 leading-none">Backend & System Engineer</p>
+          <p class="text-[11px] font-medium text-slate-500 leading-none">Software Engineer</p>
         </div>
       </a>
 
       <!-- Desktop Navigation Menu -->
       <nav class="hidden md:flex items-center gap-7 text-sm font-bold text-slate-600">
-        <a href="#about" class="hover:text-vibrant-blue transition-colors">Tentang</a>
-        <a href="#projects" class="hover:text-vibrant-blue transition-colors">Proyek Pilihan</a>
+        <a href="#about" class="hover:text-vibrant-blue transition-colors">About</a>
+        <a href="#projects" class="hover:text-vibrant-blue transition-colors">Projects</a>
         <a href="#stack" class="hover:text-vibrant-blue transition-colors">Tech Stack</a>
-        <a href="#journey" class="hover:text-vibrant-blue transition-colors">Pengalaman</a>
-        <a href="#awards" class="hover:text-vibrant-blue transition-colors">Prestasi & Hibah</a>
+        <a href="#experience" class="hover:text-vibrant-blue transition-colors">Experience</a>
+        <a href="#honors" class="hover:text-vibrant-blue transition-colors">Honors &amp; Certifications</a>
       </nav>
 
       <!-- Action Button -->
       <div class="flex items-center gap-3">
         <a href="#contact" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-slate-900 hover:bg-vibrant-blue text-white text-xs font-bold transition-all shadow-sm hover:shadow-lg hover:shadow-blue-500/25">
-          <span>Ajak Diskusi</span>
+          <span>Get in Touch</span>
           <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
         </a>
 
-        <!-- Mobile Toggle Button -->
-        <button id="mobile-toggle" aria-label="Buka Menu" class="md:hidden p-2 rounded-xl text-slate-700 hover:bg-slate-100">
+        <!-- Mobile Drawer Button -->
+        <button id="mobile-toggle" aria-label="Open Navigation Menu" class="md:hidden p-2 rounded-xl text-slate-700 hover:bg-slate-100">
           <i data-lucide="menu" class="w-6 h-6"></i>
         </button>
       </div>
@@ -197,18 +192,18 @@
 
     <!-- Mobile Drawer -->
     <div id="mobile-drawer" class="hidden md:hidden bg-white border-b border-slate-200 px-6 py-4 flex flex-col gap-3 text-sm font-bold text-slate-700">
-      <a href="#about" class="mobile-link py-2">Tentang</a>
-      <a href="#projects" class="mobile-link py-2">Proyek Pilihan</a>
+      <a href="#about" class="mobile-link py-2">About</a>
+      <a href="#projects" class="mobile-link py-2">Projects</a>
       <a href="#stack" class="mobile-link py-2">Tech Stack</a>
-      <a href="#journey" class="mobile-link py-2">Pengalaman</a>
-      <a href="#awards" class="mobile-link py-2">Prestasi & Hibah</a>
-      <a href="#contact" class="mobile-link mt-2 text-center py-3 rounded-xl bg-vibrant-blue text-white">Hubungi Fadiyah</a>
+      <a href="#experience" class="mobile-link py-2">Experience</a>
+      <a href="#honors" class="mobile-link py-2">Honors &amp; Certifications</a>
+      <a href="#contact" class="mobile-link mt-2 text-center py-3 rounded-xl bg-vibrant-blue text-white">Contact Fadiyah</a>
     </div>
   </header>
 
   <main class="relative z-10">
 
-    <!-- ==================== HERO SECTION (Vibrant, Natural, Human) ==================== -->
+    <!-- ==================== HERO SECTION ==================== -->
     <section id="hero" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-16 md:pt-18 md:pb-24">
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
         
@@ -218,35 +213,34 @@
           <!-- Availability Pill -->
           <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs font-bold shadow-sm">
             <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-ping"></span>
-            <span>Siap Berkolaborasi & Terbuka untuk Posisi Backend Engineer</span>
+            <span>Available for Software Engineer Roles &amp; High-Impact Projects</span>
           </div>
 
           <!-- Main Bold Headline -->
           <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.12]">
-            Membangun Backend <br>
-            <span class="text-vibrant-blue underline decoration-vibrant-pink decoration-wavy decoration-2">Scalable</span>, 
-            Aman, &amp; <br>
-            <span class="text-vibrant-pink">Berdampak Nyata</span>
+            Engineering Scalable, <br>
+            <span class="text-vibrant-blue underline decoration-vibrant-pink decoration-wavy decoration-2">High-Performance</span> <br>
+            &amp; <span class="text-vibrant-pink">Secure Software</span>
           </h1>
 
-          <!-- Authentic Human Pitch -->
+          <!-- Authentic Pitch -->
           <p class="text-base sm:text-lg text-slate-600 leading-relaxed font-normal max-w-xl">
-            Hai! Saya <strong class="text-slate-900 font-bold">Fadiyah Desi Asmawati</strong>, lulusan D4 Teknik Informatika Universitas Harkat Negeri yang berfokus pada <span class="text-vibrant-blue font-semibold">Backend Engineering</span>. Saya gemar merancang RESTful API dengan Python (Flask, FastAPI) dan Laravel, menyusun skema database terstruktur, dan memastikan aliran data aplikasi berjalan stabil tanpa celah.
+            Hi, I'm <strong class="text-slate-900 font-bold">Fadiyah Desi Asmawati</strong> &mdash; a <span class="text-vibrant-blue font-semibold">Software Engineer</span> with a strong background in Informatics Engineering from Universitas Harkat Negeri. I specialize in designing scalable RESTful APIs with Python (Flask, FastAPI) &amp; Laravel, architecting multi-tenant databases, and building production-ready web platforms with measurable business impact.
           </p>
 
-          <!-- Authentic Floating Badges (Seperti di referensi slide) -->
+          <!-- Floating Badges -->
           <div class="flex flex-wrap items-center gap-3 pt-2">
             <div class="pill-badge bg-vibrant-green text-white">
               <i data-lucide="check" class="w-4 h-4"></i>
-              <span>D4 Teknik Informatika</span>
+              <span>Informatics Engineering</span>
             </div>
             <div class="pill-badge bg-vibrant-pink text-white">
               <i data-lucide="award" class="w-4 h-4"></i>
-              <span>Sertifikasi SOLID Dicoding</span>
+              <span>SOLID Principles Certified</span>
             </div>
             <div class="pill-badge bg-vibrant-purple text-white">
               <i data-lucide="database" class="w-4 h-4"></i>
-              <span>Sertifikasi Data Science BNSP</span>
+              <span>Data Science BNSP Certified</span>
             </div>
           </div>
 
@@ -254,26 +248,26 @@
           <div class="flex flex-wrap items-center gap-4 pt-4">
             <a href="#projects" class="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-2xl bg-vibrant-blue hover:bg-blue-700 text-white font-extrabold text-sm shadow-lg shadow-blue-500/25 hover:shadow-xl hover:-translate-y-0.5 transition-all">
               <i data-lucide="layers" class="w-4 h-4"></i>
-              <span>Eksplorasi Proyek Saya</span>
+              <span>Explore My Work</span>
             </a>
 
-            <a href="https://wa.me/6285312022841?text=Halo%20Fadiyah,%20saya%20melihat%20portfolio%20Anda%20dan%20tertarik%20untuk%20berdiskusi." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-3.5 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm shadow-md shadow-emerald-600/20 hover:-translate-y-0.5 transition-all">
+            <a href="https://wa.me/6285312022841?text=Hi%20Fadiyah,%20I%20reviewed%20your%20portfolio%20and%20would%20love%20to%20connect." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-3.5 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm shadow-md shadow-emerald-600/20 hover:-translate-y-0.5 transition-all">
               <i data-lucide="message-circle" class="w-4 h-4"></i>
-              <span>Chat WhatsApp</span>
+              <span>WhatsApp Chat</span>
             </a>
 
             <!-- 1-Click Copy Email -->
-            <button id="copy-email-btn" data-email="fadiyahdesi2@gmail.com" class="inline-flex items-center gap-2 px-4 py-3.5 rounded-2xl bg-white border-2 border-slate-200 hover:border-vibrant-blue text-slate-700 hover:text-vibrant-blue font-bold text-sm transition-all" title="Klik untuk salin email">
+            <button id="copy-email-btn" data-email="fadiyahdesi2@gmail.com" class="inline-flex items-center gap-2 px-4 py-3.5 rounded-2xl bg-white border-2 border-slate-200 hover:border-vibrant-blue text-slate-700 hover:text-vibrant-blue font-bold text-sm transition-all" title="Click to copy email">
               <i data-lucide="copy" class="w-4 h-4 text-vibrant-blue"></i>
               <span>fadiyahdesi2@gmail.com</span>
             </button>
           </div>
         </div>
 
-        <!-- Right: Interactive Device Mockup Visual (Mirip gaya slide referensi) -->
+        <!-- Right: Interactive Device Mockup Visual -->
         <div class="lg:col-span-5 relative flex justify-center items-center py-6">
           
-          <!-- Background Colorful Organic Glow Circle -->
+          <!-- Background Glow Circle -->
           <div class="absolute w-72 h-72 sm:w-96 sm:h-96 rounded-full bg-gradient-to-tr from-vibrant-pink/20 via-vibrant-blue/20 to-vibrant-amber/20 blur-2xl -z-10"></div>
 
           <!-- Browser Card Showcase (PRISMA App) -->
@@ -300,7 +294,7 @@
                   </div>
                   <div>
                     <h4 class="text-xs font-extrabold text-slate-900 leading-tight">PRISMA UHN</h4>
-                    <p class="text-[10px] text-slate-500">Standar BIMA Kemdiktisaintek</p>
+                    <p class="text-[10px] text-slate-500">National BIMA Standard</p>
                   </div>
                 </div>
                 <span class="px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-[10px] font-bold">Live App</span>
@@ -309,43 +303,43 @@
               <!-- Mini Stats Preview in Card -->
               <div class="grid grid-cols-2 gap-2 text-center text-xs mb-4">
                 <div class="p-2.5 rounded-xl bg-blue-50/80 border border-blue-100">
-                  <div class="font-extrabold text-vibrant-blue text-sm">4 Fakultas</div>
-                  <div class="text-[10px] text-slate-600 font-medium">22 Program Studi</div>
+                  <div class="font-extrabold text-vibrant-blue text-sm">4 Faculties</div>
+                  <div class="text-[10px] text-slate-600 font-medium">22 Academic Programs</div>
                 </div>
                 <div class="p-2.5 rounded-xl bg-pink-50/80 border border-pink-100">
-                  <div class="font-extrabold text-vibrant-pink text-sm">Rp 4.8 M</div>
-                  <div class="text-[10px] text-slate-600 font-medium">Pagu Kelola Riset</div>
+                  <div class="font-extrabold text-vibrant-pink text-sm">IDR 4.8B</div>
+                  <div class="text-[10px] text-slate-600 font-medium">Managed Grants Pagu</div>
                 </div>
               </div>
 
               <div class="space-y-2">
                 <div class="flex items-center justify-between text-[11px] bg-slate-100/70 p-2 rounded-lg">
-                  <span class="font-medium text-slate-700">8 Role Akses (RBAC)</span>
-                  <span class="font-bold text-vibrant-green">Aktif</span>
+                  <span class="font-medium text-slate-700">8 RBAC Roles</span>
+                  <span class="font-bold text-vibrant-green">Active</span>
                 </div>
                 <div class="flex items-center justify-between text-[11px] bg-slate-100/70 p-2 rounded-lg">
-                  <span class="font-medium text-slate-700">Kontrak SPK Ber-QR</span>
+                  <span class="font-medium text-slate-700">QR-Verified Digital Contracts</span>
                   <span class="font-bold text-vibrant-blue">Verified</span>
                 </div>
               </div>
 
               <a href="https://prisma-harkatnegeri.up.railway.app/" target="_blank" rel="noopener noreferrer" class="mt-4 w-full py-2.5 rounded-xl bg-vibrant-blue hover:bg-blue-700 text-white font-bold text-xs flex items-center justify-center gap-1.5 transition">
-                <span>Buka Live Website</span>
+                <span>View Live Web App</span>
                 <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
               </a>
             </div>
           </div>
 
-          <!-- Floating Green Sticker Pill (mirip contoh "Calvin Tariga" di slide) -->
+          <!-- Floating Green Sticker Pill -->
           <div class="absolute -bottom-4 -left-4 z-20 pill-badge bg-vibrant-green text-white shadow-xl py-2 px-4 flex items-center gap-2">
             <span class="w-2 h-2 rounded-full bg-white animate-pulse"></span>
-            <span class="text-xs">Fadiyah Desi A. &bull; Backend</span>
+            <span class="text-xs">Fadiyah Desi A. &bull; Software Eng.</span>
           </div>
 
           <!-- Floating Pink Sticker Pill -->
           <div class="absolute -top-4 -right-2 z-20 pill-badge bg-vibrant-pink text-white shadow-xl py-2 px-4 flex items-center gap-2">
             <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
-            <span class="text-xs">UHN & Kemdikbudristek</span>
+            <span class="text-xs">UHN &amp; Kemdikbudristek</span>
           </div>
         </div>
 
@@ -353,50 +347,50 @@
     </section>
 
     <!-- ==================== HIGHLIGHT IMPACT NUMBERS ==================== -->
-    <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <section id="about" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <div class="bg-white rounded-3xl p-6 sm:p-8 border-2 border-slate-100 shadow-pop grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
         <div class="border-r border-slate-100 last:border-none">
           <div class="text-3xl sm:text-4xl font-extrabold text-vibrant-blue">7+</div>
-          <p class="text-xs sm:text-sm text-slate-600 font-bold mt-1">Sistem &amp; Web Services</p>
+          <p class="text-xs sm:text-sm text-slate-600 font-bold mt-1">Production &amp; Web Systems</p>
         </div>
         <div class="border-r border-slate-100 last:border-none">
           <div class="text-3xl sm:text-4xl font-extrabold text-vibrant-pink">2x</div>
-          <p class="text-xs sm:text-sm text-slate-600 font-bold mt-1">Hibah Nasional Dikti</p>
+          <p class="text-xs sm:text-sm text-slate-600 font-bold mt-1">National Innovation Grants</p>
         </div>
         <div class="border-r border-slate-100 last:border-none">
           <div class="text-3xl sm:text-4xl font-extrabold text-vibrant-green">100%</div>
-          <p class="text-xs sm:text-sm text-slate-600 font-bold mt-1">Standar BIMA Mirroring</p>
+          <p class="text-xs sm:text-sm text-slate-600 font-bold mt-1">BIMA National Compliance</p>
         </div>
         <div>
           <div class="text-3xl sm:text-4xl font-extrabold text-vibrant-purple">BNSP</div>
-          <p class="text-xs sm:text-sm text-slate-600 font-bold mt-1">Data Science Certified</p>
+          <p class="text-xs sm:text-sm text-slate-600 font-bold mt-1">Certified Data Scientist</p>
         </div>
       </div>
     </section>
 
-    <!-- ==================== FEATURED PROJECTS SECTION (Supporting Pictures & Mockups) ==================== -->
+    <!-- ==================== FEATURED PROJECTS SECTION ==================== -->
     <section id="projects" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       
-      <!-- Section Header with Natural Copy -->
+      <!-- Section Header -->
       <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
         <div>
           <span class="pill-badge bg-blue-50 text-vibrant-blue border border-blue-200">
-            Karya &amp; Implementasi Nyata
+            Featured Engineering Work
           </span>
           <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3 tracking-tight">
-            Proyek Pilihan yang Pernah Saya Bangun
+            Key Software Projects &amp; Case Studies
           </h2>
           <p class="text-slate-600 text-sm sm:text-base mt-2 max-w-xl">
-            Berikut adalah beberapa sistem yang saya arsiteki dan kembangkan, mulai dari portal skala kampus, riset tugas akhir deteksi gejala, hingga backend mobile berbasis AI.
+            A curated selection of software systems I have architected and built &mdash; spanning enterprise academic platforms, intelligent inference engines, and AI-powered mobile services.
           </p>
         </div>
 
         <!-- Filter Pill Buttons -->
         <div class="flex flex-wrap gap-2 text-xs font-bold">
-          <button data-filter="all" class="filter-btn active px-4 py-2 rounded-full bg-vibrant-blue text-white shadow-sm transition">Semua</button>
-          <button data-filter="academic" class="filter-btn px-4 py-2 rounded-full bg-slate-100 text-slate-700 hover:bg-slate-200 transition">Kampus &amp; SaaS</button>
-          <button data-filter="ai-mobile" class="filter-btn px-4 py-2 rounded-full bg-slate-100 text-slate-700 hover:bg-slate-200 transition">Python &amp; AI</button>
-          <button data-filter="algorithm" class="filter-btn px-4 py-2 rounded-full bg-slate-100 text-slate-700 hover:bg-slate-200 transition">Algoritma &amp; SPK</button>
+          <button data-filter="all" class="filter-btn active px-4 py-2 rounded-full bg-vibrant-blue text-white shadow-sm transition">All</button>
+          <button data-filter="enterprise" class="filter-btn px-4 py-2 rounded-full bg-slate-100 text-slate-700 hover:bg-slate-200 transition">Enterprise &amp; SaaS</button>
+          <button data-filter="python-ai" class="filter-btn px-4 py-2 rounded-full bg-slate-100 text-slate-700 hover:bg-slate-200 transition">Python &amp; AI</button>
+          <button data-filter="algorithm" class="filter-btn px-4 py-2 rounded-full bg-slate-100 text-slate-700 hover:bg-slate-200 transition">Algorithms &amp; DSS</button>
         </div>
       </div>
 
@@ -404,14 +398,14 @@
       <div class="space-y-10">
 
         <!-- ================= PROJECT 1: PRISMA UHN (Flagship Live Project) ================= -->
-        <article class="project-item bg-white rounded-3xl border-2 border-slate-100 p-6 sm:p-8 shadow-pop hover:shadow-pop-hover transition-all duration-300" data-category="academic">
+        <article class="project-item bg-white rounded-3xl border-2 border-slate-100 p-6 sm:p-8 shadow-pop hover:shadow-pop-hover transition-all duration-300" data-category="enterprise">
           <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             
             <!-- Left Info -->
             <div class="lg:col-span-7 space-y-4">
               <div class="flex flex-wrap items-center gap-2">
                 <span class="pill-badge bg-vibrant-pink text-white text-[11px]">
-                  Enterprise Kampus &bull; T.A. 2026/2027
+                  Enterprise Academic SaaS &bull; A.Y. 2026/2027
                 </span>
                 <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold">
                   <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
@@ -420,33 +414,33 @@
               </div>
 
               <h3 class="text-2xl sm:text-3xl font-extrabold text-slate-900 leading-snug">
-                PRISMA UHN &mdash; Portal Riset, Inovasi, Pengabdian &amp; Apresiasi
+                PRISMA UHN &mdash; Integrated Research, Innovation &amp; Grant Portal
               </h3>
 
               <p class="text-sm text-slate-600 leading-relaxed">
-                Sistem informasi terpadu untuk mendigitalkan seluruh siklus penelitian, pengabdian masyarakat, sentra HKI, dan insentif dosen di <strong class="text-slate-900">Universitas Harkat Negeri (4 Fakultas &amp; 22 Prodi)</strong>. Mengadopsi struktur taksonomi nasional <strong class="text-vibrant-blue">BIMA Kemdiktisaintek</strong> untuk mempermudah akreditasi IKU-5.
+                An institutional enterprise platform streamlining the end-to-end lifecycle of academic research, community empowerment programs, intellectual property rights (HKI), and faculty incentives across <strong class="text-slate-900">4 Faculties &amp; 22 Study Programs</strong> at Universitas Harkat Negeri. Fully compliant with national <strong class="text-vibrant-blue">BIMA Kemdiktisaintek</strong> standards.
               </p>
 
-              <!-- Fitur Kunci -->
+              <!-- Key Features -->
               <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">
                 <div class="p-3 rounded-2xl bg-slate-50 border border-slate-100">
-                  <div class="font-extrabold text-vibrant-blue text-xs mb-0.5">8 Role RBAC</div>
-                  <p class="text-[11px] text-slate-500">Dosen, Reviewer, Kaprodi, Dekan, P3M, Rektorat, &amp; Keuangan.</p>
+                  <div class="font-extrabold text-vibrant-blue text-xs mb-0.5">8-Role RBAC</div>
+                  <p class="text-[11px] text-slate-500">Strict permission isolation from Lecturers to Deans, P3M &amp; Finance.</p>
                 </div>
                 <div class="p-3 rounded-2xl bg-slate-50 border border-slate-100">
-                  <div class="font-extrabold text-vibrant-pink text-xs mb-0.5">SPK Digital &amp; QR</div>
-                  <p class="text-[11px] text-slate-500">Kontrak elektronik dengan verifikasi tanda tangan QR code.</p>
+                  <div class="font-extrabold text-vibrant-pink text-xs mb-0.5">Digital SPK &amp; QR</div>
+                  <p class="text-[11px] text-slate-500">Automated e-contract generation with verifiable QR digital signature.</p>
                 </div>
                 <div class="p-3 rounded-2xl bg-slate-50 border border-slate-100">
-                  <div class="font-extrabold text-vibrant-green text-xs mb-0.5">Pagu Rp 4.8 Miliar</div>
-                  <p class="text-[11px] text-slate-500">Pencairan termin multi-tahap (70/30) berbasis monev.</p>
+                  <div class="font-extrabold text-vibrant-green text-xs mb-0.5">IDR 4.8B Budget</div>
+                  <p class="text-[11px] text-slate-500">Multi-stage fund disbursement (70/30) with automated progress auditing.</p>
                 </div>
               </div>
 
               <!-- Tech Pills -->
               <div class="flex flex-wrap gap-2 pt-2 text-xs font-bold text-slate-700">
                 <span class="px-3 py-1 rounded-xl bg-slate-100">PHP Laravel</span>
-                <span class="px-3 py-1 rounded-xl bg-slate-100">MySQL / PostgreSQL</span>
+                <span class="px-3 py-1 rounded-xl bg-slate-100">PostgreSQL / MySQL</span>
                 <span class="px-3 py-1 rounded-xl bg-slate-100">Double-Blind Review</span>
                 <span class="px-3 py-1 rounded-xl bg-slate-100">MinIO Storage</span>
                 <span class="px-3 py-1 rounded-xl bg-slate-100">Railway Cloud</span>
@@ -456,7 +450,7 @@
               <div class="pt-3">
                 <a href="https://prisma-harkatnegeri.up.railway.app/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-vibrant-blue hover:bg-blue-700 text-white font-bold text-xs shadow-md transition">
                   <i data-lucide="globe" class="w-4 h-4"></i>
-                  <span>Buka Live Website PRISMA UHN</span>
+                  <span>Explore Live PRISMA App</span>
                   <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
                 </a>
               </div>
@@ -472,15 +466,15 @@
                   <span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
                   <span class="text-[10px] text-slate-500 font-mono ml-2">prisma-harkatnegeri.up.railway.app</span>
                 </div>
-                <!-- Gambar Project: Gambar nyata atau visualisasi web -->
+                <!-- Project Image Preview with Fallback -->
                 <div class="p-4 bg-slate-50">
                   <img id="img-prisma" 
                        src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" 
-                       alt="Tampilan Antarmuka PRISMA UHN" 
+                       alt="PRISMA UHN Web App Interface" 
                        class="rounded-xl w-full h-48 sm:h-56 object-cover shadow-sm border border-slate-200"
                        onerror="this.onerror=null; this.src='assets/images/prisma.png';">
                   <p class="text-[11px] text-center text-slate-400 mt-2 font-medium">
-                    💡 <em>Anda bisa meletakkan screenshot asli di <code>assets/images/prisma.png</code></em>
+                    💡 <em>Custom screenshots can be placed in <code>assets/images/prisma.png</code></em>
                   </p>
                 </div>
               </div>
@@ -490,14 +484,14 @@
         </article>
 
 
-        <!-- ================= PROJECT 2: Rule-Based ADHD Screening System (Skripsi) ================= -->
-        <article class="project-item bg-white rounded-3xl border-2 border-slate-100 p-6 sm:p-8 shadow-pop hover:shadow-pop-hover transition-all duration-300" data-category="ai-mobile">
+        <!-- ================= PROJECT 2: Rule-Based ADHD Screening System (Thesis Project) ================= -->
+        <article class="project-item bg-white rounded-3xl border-2 border-slate-100 p-6 sm:p-8 shadow-pop hover:shadow-pop-hover transition-all duration-300" data-category="python-ai">
           <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             
             <div class="lg:col-span-7 space-y-4">
               <div class="flex items-center gap-2">
                 <span class="pill-badge bg-vibrant-purple text-white text-[11px]">
-                  Skripsi / Tugas Akhir &bull; 2026
+                  Undergraduate Thesis &bull; 2026
                 </span>
                 <span class="pill-badge bg-slate-100 text-slate-700 text-[11px]">
                   Python Flask + MongoDB
@@ -509,17 +503,17 @@
               </h3>
 
               <p class="text-sm text-slate-600 leading-relaxed">
-                Sistem skrining deteksi dini indikasi ADHD pada anak berbasis kuesioner terstandar. Dilengkapi dengan <em>inference engine rule-based</em> di sisi backend yang memproses respon kuesioner secara otomatis untuk menghasilkan klasifikasi tingkat indikasi sebelum konsultasi dengan psikolog.
+                An automated early screening diagnostic platform for pediatric ADHD symptoms. Features a custom rule-based backend inference engine that analyzes standardized clinical questionnaire responses to produce instant, automated classifications integrated with psychologist consultation workflows.
               </p>
 
               <div class="space-y-2 text-xs text-slate-600">
                 <div class="flex items-start gap-2">
                   <i data-lucide="check-circle-2" class="w-4 h-4 text-vibrant-green shrink-0 mt-0.5"></i>
-                  <span>RESTful API Flask menangani akun pengguna, data profil anak, kuesioner dinamis, dan hasil skrining.</span>
+                  <span>Flask-based RESTful API managing user authentication, child profiles, dynamic screening questionnaires, and psychologist reviews.</span>
                 </div>
                 <div class="flex items-start gap-2">
                   <i data-lucide="check-circle-2" class="w-4 h-4 text-vibrant-green shrink-0 mt-0.5"></i>
-                  <span>Basis data NoSQL MongoDB untuk fleksibilitas struktur jawaban dan riwayat konsultasi psikolog.</span>
+                  <span>Engineered flexible NoSQL MongoDB collections for multi-variant response workflows and historical clinical audits.</span>
                 </div>
               </div>
 
@@ -527,7 +521,7 @@
                 <span class="px-3 py-1 rounded-xl bg-slate-100">Python Flask</span>
                 <span class="px-3 py-1 rounded-xl bg-slate-100">MongoDB</span>
                 <span class="px-3 py-1 rounded-xl bg-slate-100">JWT Authentication</span>
-                <span class="px-3 py-1 rounded-xl bg-slate-100">Inference Rule Engine</span>
+                <span class="px-3 py-1 rounded-xl bg-slate-100">Rule-Based Reasoning</span>
               </div>
             </div>
 
@@ -538,16 +532,16 @@
                   <span class="w-2.5 h-2.5 rounded-full bg-red-400"></span>
                   <span class="w-2.5 h-2.5 rounded-full bg-amber-400"></span>
                   <span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
-                  <span class="text-[10px] text-slate-500 font-mono ml-2">adhd-screening-system.app</span>
+                  <span class="text-[10px] text-slate-500 font-mono ml-2">adhd-screening.app</span>
                 </div>
                 <div class="p-4 bg-slate-50">
                   <img id="img-adhd" 
                        src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80" 
-                       alt="ADHD Screening Dashboard" 
+                       alt="ADHD Clinical Screening Dashboard" 
                        class="rounded-xl w-full h-48 sm:h-56 object-cover shadow-sm border border-slate-200"
                        onerror="this.onerror=null; this.src='assets/images/adhd.png';">
                   <p class="text-[11px] text-center text-slate-400 mt-2 font-medium">
-                    💡 <em>Letakkan screenshot skripsi Anda di <code>assets/images/adhd.png</code></em>
+                    💡 <em>Custom screenshots can be placed in <code>assets/images/adhd.png</code></em>
                   </p>
                 </div>
               </div>
@@ -558,47 +552,47 @@
 
 
         <!-- ================= PROJECT 3: Bicaraku Mobile App Backend (Hugging Face AI) ================= -->
-        <article class="project-item bg-white rounded-3xl border-2 border-slate-100 p-6 sm:p-8 shadow-pop hover:shadow-pop-hover transition-all duration-300" data-category="ai-mobile">
+        <article class="project-item bg-white rounded-3xl border-2 border-slate-100 p-6 sm:p-8 shadow-pop hover:shadow-pop-hover transition-all duration-300" data-category="python-ai">
           <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             
             <div class="lg:col-span-7 space-y-4">
               <div class="flex items-center gap-2">
                 <span class="pill-badge bg-vibrant-blue text-white text-[11px]">
-                  Mobile App &bull; 2025
+                  Mobile Backend &bull; 2025
                 </span>
                 <span class="pill-badge bg-amber-100 text-amber-900 text-[11px]">
-                  Hugging Face AI API
+                  Hugging Face AI Integration
                 </span>
               </div>
 
               <h3 class="text-2xl sm:text-3xl font-extrabold text-slate-900 leading-snug">
-                Bicaraku &mdash; Layanan Backend &amp; NLP Integration
+                Bicaraku &mdash; Speech Therapy Backend &amp; NLP Pipeline
               </h3>
 
               <p class="text-sm text-slate-600 leading-relaxed">
-                Membangun layanan backend API berbasis Flask untuk aplikasi mobile (Flutter) terapi wicara dan komunikasi. Mengintegrasikan endpoint AI dari Hugging Face untuk pemrosesan teks cerdas serta mengamankan sesi pengguna dengan JWT token.
+                Architected high-throughput backend services for a mobile speech therapy application (Flutter client). Integrated Hugging Face NLP models for intelligent text processing and speech exercise validation, protected by secure token-based JWT sessions.
               </p>
 
               <div class="space-y-2 text-xs text-slate-600">
                 <div class="flex items-start gap-2">
                   <i data-lucide="check-circle-2" class="w-4 h-4 text-vibrant-blue shrink-0 mt-0.5"></i>
-                  <span>Integrasi external API Hugging Face untuk analisis teks secara real-time.</span>
+                  <span>Seamless integration with third-party Hugging Face model endpoints for real-time text analysis.</span>
                 </div>
                 <div class="flex items-start gap-2">
                   <i data-lucide="check-circle-2" class="w-4 h-4 text-vibrant-blue shrink-0 mt-0.5"></i>
-                  <span>Alur autentikasi JWT aman dan sinkronisasi data cepat dengan client Flutter.</span>
+                  <span>Robust JWT session management, rigorous payload sanitization, and structured API responses.</span>
                 </div>
               </div>
 
               <div class="flex flex-wrap gap-2 pt-2 text-xs font-bold text-slate-700">
                 <span class="px-3 py-1 rounded-xl bg-slate-100">Python Flask</span>
-                <span class="px-3 py-1 rounded-xl bg-slate-100">JWT Session</span>
+                <span class="px-3 py-1 rounded-xl bg-slate-100">JWT Security</span>
                 <span class="px-3 py-1 rounded-xl bg-slate-100">Hugging Face API</span>
-                <span class="px-3 py-1 rounded-xl bg-slate-100">Flutter Client</span>
+                <span class="px-3 py-1 rounded-xl bg-slate-100">Flutter Mobile</span>
               </div>
             </div>
 
-            <!-- Right: Mobile Phone Frame Mockup (Mirip mockup HP di gambar slide) -->
+            <!-- Right: Mobile Phone Frame Mockup -->
             <div class="lg:col-span-5 flex justify-center">
               <div class="phone-mockup">
                 <div class="phone-island"></div>
@@ -606,7 +600,7 @@
                 <div class="w-full h-full bg-slate-900 pt-8 pb-4 px-3 flex flex-col justify-between">
                   <img id="img-bicaraku" 
                        src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=600&q=80" 
-                       alt="Bicaraku Mobile Interface" 
+                       alt="Bicaraku Mobile App Interface" 
                        class="rounded-2xl w-full h-64 object-cover"
                        onerror="this.onerror=null; this.src='assets/images/bicaraku.png';">
                   <div class="text-center">
@@ -621,42 +615,42 @@
         </article>
 
 
-        <!-- ================= PROJECT 4: SaaS Village Information System (Magang Industri) ================= -->
-        <article class="project-item bg-white rounded-3xl border-2 border-slate-100 p-6 sm:p-8 shadow-pop hover:shadow-pop-hover transition-all duration-300" data-category="academic">
+        <!-- ================= PROJECT 4: SaaS Village Information System (Industry Internship) ================= -->
+        <article class="project-item bg-white rounded-3xl border-2 border-slate-100 p-6 sm:p-8 shadow-pop hover:shadow-pop-hover transition-all duration-300" data-category="enterprise">
           <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             
             <div class="lg:col-span-7 space-y-4">
               <div class="flex items-center gap-2">
                 <span class="pill-badge bg-vibrant-green text-white text-[11px]">
-                  Magang Industri &bull; PT Intermedia Solusindo Global
+                  Industry SaaS &bull; PT Intermedia Solusindo Global
                 </span>
                 <a href="https://bit.ly/SuratRekomendasiProfesional" target="_blank" rel="noopener noreferrer" class="pill-badge bg-blue-100 text-blue-800 text-[11px] hover:bg-blue-200">
                   <i data-lucide="file-text" class="w-3.5 h-3.5"></i>
-                  <span>Surat Rekomendasi Resmi</span>
+                  <span>Official Recommendation</span>
                 </a>
               </div>
 
               <h3 class="text-2xl sm:text-3xl font-extrabold text-slate-900 leading-snug">
-                Integrated Village Information System (SaaS)
+                Multi-Tenant Integrated Village Information System (SaaS)
               </h3>
 
               <p class="text-sm text-slate-600 leading-relaxed">
-                Mengarsiteki dan mengimplementasikan layanan backend SaaS untuk pengelolaan data administrasi kependudukan dan keuangan multi-desa. Menghasilkan surat rekomendasi profesional atas kecepatan dan kualitas kontribusi teknis.
+                Architected and deployed a multi-tenant SaaS backend service managing administrative and financial data across municipal village entities. Earned a formal Letter of Recommendation for exceptional technical delivery and rapid problem-solving.
               </p>
 
               <div class="space-y-2 text-xs text-slate-600">
                 <div class="flex items-start gap-2">
                   <i data-lucide="check-circle-2" class="w-4 h-4 text-vibrant-green shrink-0 mt-0.5"></i>
-                  <span>Desain skema relasional (PostgreSQL &amp; MySQL) dengan isolasi multi-tenant antar entitas desa.</span>
+                  <span>Designed relational database schemas (PostgreSQL &amp; MySQL) with robust tenant isolation and data integrity guarantees.</span>
                 </div>
                 <div class="flex items-start gap-2">
                   <i data-lucide="check-circle-2" class="w-4 h-4 text-vibrant-green shrink-0 mt-0.5"></i>
-                  <span>Kolaborasi tugas frontend dan backend untuk kelancaran rilis fitur end-to-end.</span>
+                  <span>Collaborated across the stack to deliver clean end-to-end administrative features on schedule.</span>
                 </div>
               </div>
 
               <div class="flex flex-wrap gap-2 pt-2 text-xs font-bold text-slate-700">
-                <span class="px-3 py-1 rounded-xl bg-slate-100">SaaS Multi-Tenant</span>
+                <span class="px-3 py-1 rounded-xl bg-slate-100">Multi-Tenant SaaS</span>
                 <span class="px-3 py-1 rounded-xl bg-slate-100">PostgreSQL</span>
                 <span class="px-3 py-1 rounded-xl bg-slate-100">MySQL</span>
                 <span class="px-3 py-1 rounded-xl bg-slate-100">RESTful APIs</span>
@@ -669,16 +663,16 @@
                   <span class="w-2.5 h-2.5 rounded-full bg-red-400"></span>
                   <span class="w-2.5 h-2.5 rounded-full bg-amber-400"></span>
                   <span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
-                  <span class="text-[10px] text-slate-500 font-mono ml-2">desa-terpadu.saas.id</span>
+                  <span class="text-[10px] text-slate-500 font-mono ml-2">village-portal.saas.net</span>
                 </div>
                 <div class="p-4 bg-slate-50">
                   <img id="img-saas" 
                        src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" 
-                       alt="Dashboard Desa" 
+                       alt="Village Administration Dashboard" 
                        class="rounded-xl w-full h-48 sm:h-56 object-cover shadow-sm border border-slate-200"
                        onerror="this.onerror=null; this.src='assets/images/village-saas.png';">
                   <p class="text-[11px] text-center text-slate-400 mt-2 font-medium">
-                    💡 <em>Letakkan screenshot sistem desa di <code>assets/images/village-saas.png</code></em>
+                    💡 <em>Custom screenshots can be placed in <code>assets/images/village-saas.png</code></em>
                   </p>
                 </div>
               </div>
@@ -688,32 +682,32 @@
         </article>
 
 
-        <!-- ================= PROJECT 5: OpticFinder (SPK Metode AHP) ================= -->
+        <!-- ================= PROJECT 5: OpticFinder (AHP Decision Support System) ================= -->
         <article class="project-item bg-white rounded-3xl border-2 border-slate-100 p-6 sm:p-8 shadow-pop hover:shadow-pop-hover transition-all duration-300" data-category="algorithm">
           <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             
             <div class="lg:col-span-7 space-y-4">
               <div class="flex items-center gap-2">
                 <span class="pill-badge bg-vibrant-amber text-slate-900 text-[11px]">
-                  Sistem Pendukung Keputusan &bull; 2024
+                  Decision Support System &bull; 2024
                 </span>
                 <span class="pill-badge bg-slate-100 text-slate-700 text-[11px]">
-                  Metode AHP (Analytical Hierarchy Process)
+                  Analytical Hierarchy Process (AHP)
                 </span>
               </div>
 
               <h3 class="text-2xl sm:text-3xl font-extrabold text-slate-900 leading-snug">
-                OpticFinder &mdash; Decision Support System
+                OpticFinder &mdash; Optical Product Decision Support System
               </h3>
 
               <p class="text-sm text-slate-600 leading-relaxed">
-                Aplikasi SPK berbasis web untuk membantu konsumen memilih kacamata optik berdasarkan preferensi harga, kenyamanan, material frame, dan kekuatan lensa melalui komputasi matematis algoritma AHP di sisi backend.
+                A multi-criteria decision-support web application that empowers users to identify optimal optical eyewear choices based on budget, comfort, frame durability, and lens specifications via algorithmic mathematical computation.
               </p>
 
               <div class="space-y-2 text-xs text-slate-600">
                 <div class="flex items-start gap-2">
                   <i data-lucide="check-circle-2" class="w-4 h-4 text-vibrant-amber shrink-0 mt-0.5"></i>
-                  <span>Perhitungan matriks perbandingan berpasangan, nilai bobot prioritas, dan uji rasio konsistensi (CR < 0.1).</span>
+                  <span>Implemented pairwise comparison matrices, priority weight normalization, and consistency ratio verification (CR &lt; 0.1).</span>
                 </div>
               </div>
 
@@ -721,7 +715,7 @@
                 <span class="px-3 py-1 rounded-xl bg-slate-100">PHP Laravel</span>
                 <span class="px-3 py-1 rounded-xl bg-slate-100">AHP Algorithm</span>
                 <span class="px-3 py-1 rounded-xl bg-slate-100">MySQL</span>
-                <span class="px-3 py-1 rounded-xl bg-slate-100">Admin Dashboard</span>
+                <span class="px-3 py-1 rounded-xl bg-slate-100">Decision Science</span>
               </div>
             </div>
 
@@ -736,11 +730,11 @@
                 <div class="p-4 bg-slate-50">
                   <img id="img-optic" 
                        src="https://images.unsplash.com/photo-1591076482161-42ce6da69f67?auto=format&fit=crop&w=800&q=80" 
-                       alt="OpticFinder SPK" 
+                       alt="OpticFinder AHP System" 
                        class="rounded-xl w-full h-48 sm:h-56 object-cover shadow-sm border border-slate-200"
                        onerror="this.onerror=null; this.src='assets/images/opticfinder.png';">
                   <p class="text-[11px] text-center text-slate-400 mt-2 font-medium">
-                    💡 <em>Letakkan screenshot OpticFinder di <code>assets/images/opticfinder.png</code></em>
+                    💡 <em>Custom screenshots can be placed in <code>assets/images/opticfinder.png</code></em>
                   </p>
                 </div>
               </div>
@@ -752,17 +746,17 @@
       </div>
     </section>
 
-    <!-- ==================== TECH STACK (Categorized & Clean) ==================== -->
+    <!-- ==================== TECH STACK ==================== -->
     <section id="stack" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       <div class="text-center max-w-2xl mx-auto mb-12">
         <span class="pill-badge bg-pink-50 text-vibrant-pink border border-pink-200">
-          Keahlian Teknis
+          Technical Arsenal
         </span>
         <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3 tracking-tight">
-          Tools &amp; Teknologi yang Saya Gunakan
+          Tools, Languages &amp; Core Stack
         </h2>
         <p class="text-slate-600 text-sm mt-2">
-          Fokus pada rekayasa backend, integritas data, dan standar penulisan kode bersih.
+          Engineering reliable software systems, clean API contracts, and high-performance databases.
         </p>
       </div>
 
@@ -773,8 +767,8 @@
           <div class="w-12 h-12 rounded-2xl bg-blue-50 text-vibrant-blue flex items-center justify-center mb-5">
             <i data-lucide="terminal" class="w-6 h-6"></i>
           </div>
-          <h3 class="text-lg font-bold text-slate-900 mb-1">Backend &amp; Languages</h3>
-          <p class="text-xs text-slate-500 mb-4">Bahasa pemrograman &amp; framework utama</p>
+          <h3 class="text-lg font-bold text-slate-900 mb-1">Languages &amp; Frameworks</h3>
+          <p class="text-xs text-slate-500 mb-4">Core backend and web technologies</p>
 
           <div class="flex flex-wrap gap-2 text-xs font-bold text-slate-700">
             <span class="px-3 py-1.5 rounded-xl bg-blue-50 text-vibrant-blue">Python</span>
@@ -784,6 +778,7 @@
             <span class="px-3 py-1.5 rounded-xl bg-slate-100">SQL</span>
             <span class="px-3 py-1.5 rounded-xl bg-slate-100">Dart (Flutter)</span>
             <span class="px-3 py-1.5 rounded-xl bg-slate-100">Java</span>
+            <span class="px-3 py-1.5 rounded-xl bg-slate-100">Go</span>
           </div>
         </div>
 
@@ -793,15 +788,16 @@
             <i data-lucide="database" class="w-6 h-6"></i>
           </div>
           <h3 class="text-lg font-bold text-slate-900 mb-1">Databases &amp; Architecture</h3>
-          <p class="text-xs text-slate-500 mb-4">Penyimpanan &amp; pola arsitektur</p>
+          <p class="text-xs text-slate-500 mb-4">Data modeling &amp; system architecture</p>
 
           <div class="flex flex-wrap gap-2 text-xs font-bold text-slate-700">
             <span class="px-3 py-1.5 rounded-xl bg-emerald-50 text-vibrant-green">PostgreSQL</span>
             <span class="px-3 py-1.5 rounded-xl bg-emerald-50 text-vibrant-green">MySQL / MariaDB</span>
-            <span class="px-3 py-1.5 rounded-xl bg-emerald-50 text-vibrant-green">MongoDB</span>
-            <span class="px-3 py-1.5 rounded-xl bg-slate-100">SaaS Multi-Tenant</span>
-            <span class="px-3 py-1.5 rounded-xl bg-slate-100">JWT Authentication</span>
+            <span class="px-3 py-1.5 rounded-xl bg-emerald-50 text-vibrant-green">MongoDB (NoSQL)</span>
+            <span class="px-3 py-1.5 rounded-xl bg-slate-100">Multi-Tenant SaaS</span>
+            <span class="px-3 py-1.5 rounded-xl bg-slate-100">JWT &amp; RBAC</span>
             <span class="px-3 py-1.5 rounded-xl bg-slate-100">SOLID Principles</span>
+            <span class="px-3 py-1.5 rounded-xl bg-slate-100">Big Data Concepts</span>
           </div>
         </div>
 
@@ -810,8 +806,8 @@
           <div class="w-12 h-12 rounded-2xl bg-purple-50 text-vibrant-purple flex items-center justify-center mb-5">
             <i data-lucide="check-square" class="w-6 h-6"></i>
           </div>
-          <h3 class="text-lg font-bold text-slate-900 mb-1">Testing &amp; Tooling</h3>
-          <p class="text-xs text-slate-500 mb-4">Pengujian keandalan &amp; kolaborasi</p>
+          <h3 class="text-lg font-bold text-slate-900 mb-1">Testing, QA &amp; DevOps</h3>
+          <p class="text-xs text-slate-500 mb-4">Reliability engineering &amp; workflows</p>
 
           <div class="flex flex-wrap gap-2 text-xs font-bold text-slate-700">
             <span class="px-3 py-1.5 rounded-xl bg-purple-50 text-vibrant-purple">Postman (API Testing)</span>
@@ -819,21 +815,21 @@
             <span class="px-3 py-1.5 rounded-xl bg-slate-100">Katalon Studio</span>
             <span class="px-3 py-1.5 rounded-xl bg-slate-100">Git &amp; GitHub</span>
             <span class="px-3 py-1.5 rounded-xl bg-slate-100">VS Code</span>
-            <span class="px-3 py-1.5 rounded-xl bg-slate-100">Figma (UI Hand-off)</span>
+            <span class="px-3 py-1.5 rounded-xl bg-slate-100">Figma</span>
           </div>
         </div>
 
       </div>
     </section>
 
-    <!-- ==================== JOURNEY & EDUCATION ==================== -->
-    <section id="journey" class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <!-- ==================== EXPERIENCE & LEADERSHIP ==================== -->
+    <section id="experience" class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       <div class="text-center max-w-xl mx-auto mb-12">
         <span class="pill-badge bg-green-50 text-vibrant-green border border-green-200">
-          Pengalaman Nyata
+          Career Milestones
         </span>
         <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3 tracking-tight">
-          Perjalanan &amp; Kepemimpinan
+          Work &amp; Leadership Experience
         </h2>
       </div>
 
@@ -848,16 +844,16 @@
           <div class="bg-white rounded-2xl p-6 border-2 border-slate-100 shadow-pop">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-2">
               <div>
-                <h4 class="text-lg font-bold text-slate-900">FrontEnd &amp; BackEnd Engineer Intern</h4>
+                <h4 class="text-lg font-bold text-slate-900">Software Engineer Intern (Frontend &amp; Backend)</h4>
                 <p class="text-xs font-bold text-slate-500">PT. Intermedia Solusindo Global</p>
               </div>
               <a href="https://bit.ly/SuratRekomendasiProfesional" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 text-vibrant-blue text-xs font-bold hover:bg-blue-100 transition">
                 <i data-lucide="award" class="w-3.5 h-3.5"></i>
-                <span>Surat Rekomendasi</span>
+                <span>Recommendation Letter</span>
               </a>
             </div>
             <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
-              Membangun backend SaaS Sistem Informasi Desa Terpadu untuk beberapa entitas desa, merancang schema database relasional multi-tenant yang aman, dan berkolaborasi lintas tim frontend-backend hingga meraih apresiasi resmi perusahaan.
+              Architected and deployed a multi-tenant SaaS backend for an Integrated Village Information System, designed relational schemas (PostgreSQL &amp; MySQL) ensuring secure data isolation across entities, and collaborated across the stack to achieve high-velocity feature delivery.
             </p>
           </div>
         </div>
@@ -870,9 +866,9 @@
           </div>
           <div class="bg-white rounded-2xl p-6 border-2 border-slate-100 shadow-pop">
             <h4 class="text-lg font-bold text-slate-900">Vice Chairman</h4>
-            <p class="text-xs font-bold text-slate-500 mb-2">Forum Riset Teknologi Informasi (FORTI)</p>
+            <p class="text-xs font-bold text-slate-500 mb-2">Information Technology Research Forum (FORTI)</p>
             <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
-              Memimpin riset dan pengembangan teknologi bagi 50 mahasiswa Teknik Informatika, membimbing tim mahasiswa untuk kompetisi bergengsi nasional PKM Kemdikbudristek, dan menjadi pemateri workshop pemrograman dasar.
+              Spearheaded IT research and development initiatives across divisions for 50 Informatics Engineering students, mentored university teams for prestigious national competitions (PKM Kemdikbudristek), and instructed foundational web programming workshops.
             </p>
           </div>
         </div>
@@ -884,41 +880,41 @@
             2024 &ndash; 2025
           </div>
           <div class="bg-white rounded-2xl p-6 border-2 border-slate-100 shadow-pop">
-            <h4 class="text-lg font-bold text-slate-900">Sekretaris &amp; Core Panitia INVOFEST</h4>
-            <p class="text-xs font-bold text-slate-500 mb-2">Hima Prodi Teknik Informatika</p>
+            <h4 class="text-lg font-bold text-slate-900">Secretary &amp; Core Committee Member for INVOFEST</h4>
+            <p class="text-xs font-bold text-slate-500 mb-2">Informatics Engineering Student Association</p>
             <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
-              Mengelola administrasi dan dokumentasi operasional kepengurusan organisasi, serta menjadi panitia inti festival IT tahunan INVOFEST untuk lebih dari 200 peserta dan sponsorship.
+              Streamlined organizational administration and comprehensive technical documentation, while serving as a core organizing committee member for INVOFEST (major annual IT festival with 200+ attendees).
             </p>
           </div>
         </div>
 
       </div>
 
-      <!-- Education Card (IPK Disembunyikan Sesuai Permintaan) -->
+      <!-- Education Card (GPA hidden as requested) -->
       <div class="mt-14 bg-white rounded-3xl p-6 sm:p-8 border-2 border-slate-100 shadow-pop">
         <div class="flex items-center gap-3 mb-4">
           <div class="w-10 h-10 rounded-2xl bg-blue-50 text-vibrant-blue flex items-center justify-center">
             <i data-lucide="graduation-cap" class="w-5 h-5"></i>
           </div>
           <div>
-            <h3 class="text-base font-extrabold text-slate-900">Pendidikan Formal</h3>
-            <p class="text-xs text-slate-500">Latar Belakang Akademik</p>
+            <h3 class="text-base font-extrabold text-slate-900">Education</h3>
+            <p class="text-xs text-slate-500">Academic Background</p>
           </div>
         </div>
 
         <div class="space-y-4 text-xs sm:text-sm">
           <div class="flex flex-col sm:flex-row sm:items-center justify-between border-b border-slate-100 pb-3">
             <div>
-              <p class="font-extrabold text-slate-900">Universitas Harkat Negeri - Tegal, Jawa Tengah</p>
-              <p class="text-slate-600 font-medium">D4 Teknik Informatika</p>
+              <p class="font-extrabold text-slate-900">Universitas Harkat Negeri - Tegal, Central Java</p>
+              <p class="text-slate-600 font-medium">Bachelor of Applied Science in Informatics Engineering (D4 Teknik Informatika)</p>
             </div>
             <span class="text-xs font-bold text-vibrant-blue mt-1 sm:mt-0">2022 &ndash; 2026</span>
           </div>
 
           <div class="flex flex-col sm:flex-row sm:items-center justify-between">
             <div>
-              <p class="font-extrabold text-slate-900">SMA Negeri 1 Balapulang - Tegal, Jawa Tengah</p>
-              <p class="text-slate-600 font-medium">Jurusan Ilmu Pengetahuan Alam (IPA)</p>
+              <p class="font-extrabold text-slate-900">SMA Negeri 1 Balapulang - Tegal, Central Java</p>
+              <p class="text-slate-600 font-medium">Natural Sciences (IPA)</p>
             </div>
             <span class="text-xs font-bold text-slate-400 mt-1 sm:mt-0">2019 &ndash; 2022</span>
           </div>
@@ -926,40 +922,40 @@
       </div>
     </section>
 
-    <!-- ==================== AWARDS & CERTIFICATIONS ==================== -->
-    <section id="awards" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <!-- ==================== HONORS & CERTIFICATIONS ==================== -->
+    <section id="honors" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       <div class="text-center max-w-2xl mx-auto mb-12">
         <span class="pill-badge bg-amber-50 text-amber-700 border border-amber-200">
-          Penghargaan &amp; Lisensi
+          Validation &amp; Recognition
         </span>
         <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3 tracking-tight">
-          Validasi Kompetensi &amp; Rekognisi
+          Awards &amp; Professional Certifications
         </h2>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         
-        <!-- Awards Kemdikbudristek -->
+        <!-- National Grants Kemdikbudristek -->
         <div class="space-y-4">
           <h3 class="text-lg font-extrabold text-slate-900 flex items-center gap-2">
             <i data-lucide="trophy" class="w-5 h-5 text-vibrant-amber"></i>
-            <span>Hibah Riset Kemdikbudristek</span>
+            <span>National Research Grants</span>
           </h3>
 
           <div class="bg-white rounded-3xl p-6 border-2 border-slate-100 shadow-pop space-y-4">
             <div class="border-b border-slate-100 pb-4">
-              <span class="text-[11px] font-bold text-vibrant-pink uppercase">Grant Awardee PKM-KC &bull; 2023</span>
+              <span class="text-[11px] font-bold text-vibrant-pink uppercase">Grant Awardee PKM-KC &bull; Kemdikbudristek 2023</span>
               <h4 class="text-base font-extrabold text-slate-900 mt-1">Mental Health Virtual Assistant</h4>
               <p class="text-xs text-slate-600 mt-1">
-                Meraih pendanaan kompetisi riset inovasi nasional dari Kemdikbudristek untuk pengembangan asisten virtual kesehatan mental Gen Z.
+                Won competitive national research funding to design and develop an innovative, interactive digital mental health assistant for Gen Z.
               </p>
             </div>
 
             <div>
-              <span class="text-[11px] font-bold text-vibrant-green uppercase">Grant Awardee POMN &bull; 2024</span>
-              <h4 class="text-base font-extrabold text-slate-900 mt-1">Digitalisasi Pariwisata Pasar Slumpring</h4>
+              <span class="text-[11px] font-bold text-vibrant-green uppercase">Grant Awardee POMN &bull; Kemdikbudristek 2024</span>
+              <h4 class="text-base font-extrabold text-slate-900 mt-1">Pasar Slumpring Tourism Digitalization</h4>
               <p class="text-xs text-slate-600 mt-1">
-                Meraih pendanaan program pemberdayaan masyarakat untuk digitalisasi promosi dan ekonomi pariwisata Desa Cempaka.
+                Awarded national community empowerment funding for rural tourism digitalization, accelerating local economic growth in Cempaka Village.
               </p>
             </div>
           </div>
@@ -969,21 +965,21 @@
         <div class="space-y-4">
           <h3 class="text-lg font-extrabold text-slate-900 flex items-center gap-2">
             <i data-lucide="badge-check" class="w-5 h-5 text-vibrant-blue"></i>
-            <span>Sertifikasi Resmi</span>
+            <span>Professional Certifications</span>
           </h3>
 
           <div class="bg-white rounded-3xl p-6 border-2 border-slate-100 shadow-pop space-y-3 text-xs">
             <div class="p-3 rounded-2xl bg-slate-50 flex items-center justify-between">
               <div>
-                <p class="font-bold text-slate-900">Sertifikasi Profesi Data Science</p>
-                <p class="text-[11px] text-slate-500">Badan Nasional Sertifikasi Profesi (BNSP)</p>
+                <p class="font-bold text-slate-900">Professional Competency Certification in Data Science</p>
+                <p class="text-[11px] text-slate-500">National Professional Certification Agency (BNSP)</p>
               </div>
               <span class="font-extrabold text-vibrant-blue">2025</span>
             </div>
 
             <div class="p-3 rounded-2xl bg-slate-50 flex items-center justify-between">
               <div>
-                <p class="font-bold text-slate-900">Prinsip Pemrograman SOLID</p>
+                <p class="font-bold text-slate-900">SOLID Programming Principles</p>
                 <p class="text-[11px] text-slate-500">Dicoding Indonesia</p>
               </div>
               <span class="font-extrabold text-vibrant-blue">2026&ndash;2029</span>
@@ -999,8 +995,8 @@
 
             <div class="p-3 rounded-2xl bg-slate-50 flex items-center justify-between">
               <div>
-                <p class="font-bold text-slate-900">API Testing &amp; Gen-AI Test Automation</p>
-                <p class="text-[11px] text-slate-500">Katalon Studio</p>
+                <p class="font-bold text-slate-900">API Testing &amp; Generative AI Test Automation</p>
+                <p class="text-[11px] text-slate-500">Katalon Studio Certified</p>
               </div>
               <span class="font-extrabold text-vibrant-blue">2025</span>
             </div>
@@ -1010,36 +1006,35 @@
       </div>
     </section>
 
-    <!-- ==================== CONTACT SECTION (Warm & Direct) ==================== -->
+    <!-- ==================== CONTACT SECTION ==================== -->
     <section id="contact" class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
       <div class="bg-gradient-to-br from-slate-900 to-blue-950 rounded-3xl p-8 sm:p-12 text-white shadow-2xl relative overflow-hidden">
         
-        <!-- Ambient Color Blur Inside Card -->
         <div class="absolute -top-20 -right-20 w-64 h-64 bg-vibrant-pink/30 rounded-full blur-3xl pointer-events-none"></div>
         <div class="absolute -bottom-20 -left-20 w-64 h-64 bg-vibrant-blue/40 rounded-full blur-3xl pointer-events-none"></div>
 
         <span class="pill-badge bg-white/10 text-white border border-white/20 mb-4">
-          Mari Terhubung
+          Let's Collaborate
         </span>
 
         <h2 class="text-3xl sm:text-5xl font-extrabold tracking-tight mt-2">
-          Punya Proyek atau Lowongan Menarik?
+          Interested in Working Together?
         </h2>
 
         <p class="text-slate-300 text-sm sm:text-base mt-4 max-w-xl mx-auto leading-relaxed">
-          Saya siap berdiskusi seputar peran <strong class="text-white">Backend Engineer</strong>, konsultasi arsitektur database, maupun kolaborasi pembuatan sistem baru.
+          I am actively exploring opportunities as a <strong class="text-white">Software Engineer</strong> (Full-Time, Contract, Remote, or On-Site), as well as freelance software architecture projects.
         </p>
 
         <!-- Direct Contact Channels -->
         <div class="mt-8 flex flex-wrap items-center justify-center gap-4">
-          <a href="https://wa.me/6285312022841?text=Halo%20Fadiyah,%20saya%20melihat%20portfolio%20Anda%20dan%20tertarik%20untuk%20berdiskusi." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-2xl bg-emerald-500 hover:bg-emerald-600 text-white font-extrabold text-sm shadow-lg shadow-emerald-500/30 transition hover:scale-105">
+          <a href="https://wa.me/6285312022841?text=Hi%20Fadiyah,%20I%20reviewed%20your%20portfolio%20and%20would%20love%20to%20connect." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-2xl bg-emerald-500 hover:bg-emerald-600 text-white font-extrabold text-sm shadow-lg shadow-emerald-500/30 transition hover:scale-105">
             <i data-lucide="message-circle" class="w-4 h-4"></i>
-            <span>Chat di WhatsApp</span>
+            <span>Chat on WhatsApp</span>
           </a>
 
           <a href="mailto:fadiyahdesi2@gmail.com" class="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-2xl bg-vibrant-blue hover:bg-blue-600 text-white font-extrabold text-sm shadow-lg shadow-blue-500/30 transition hover:scale-105">
             <i data-lucide="mail" class="w-4 h-4"></i>
-            <span>Kirim Email</span>
+            <span>Send Email</span>
           </a>
 
           <a href="https://linkedin.com/in/fadiyahdesiasmawati" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-3.5 rounded-2xl bg-white/10 hover:bg-white/20 border border-white/20 text-white font-bold text-sm transition">
@@ -1050,20 +1045,20 @@
 
         <!-- Quick Form -->
         <form id="contact-form" class="mt-10 max-w-md mx-auto text-left space-y-3 pt-6 border-t border-white/10">
-          <p class="text-xs text-slate-300 font-bold text-center">Atau tinggalkan pesan kilat:</p>
+          <p class="text-xs text-slate-300 font-bold text-center">Or drop a quick message:</p>
           
-          <input type="text" id="name" required placeholder="Nama Anda" class="w-full px-4 py-2.5 rounded-xl bg-white/10 border border-white/20 text-white text-sm placeholder-slate-400 focus:outline-none focus:border-vibrant-blue transition">
-          <input type="email" id="email" required placeholder="Alamat Email" class="w-full px-4 py-2.5 rounded-xl bg-white/10 border border-white/20 text-white text-sm placeholder-slate-400 focus:outline-none focus:border-vibrant-blue transition">
-          <textarea id="message" rows="3" required placeholder="Ceritakan singkat pesan atau peluang yang ingin didiskusikan..." class="w-full px-4 py-2.5 rounded-xl bg-white/10 border border-white/20 text-white text-sm placeholder-slate-400 focus:outline-none focus:border-vibrant-blue transition"></textarea>
+          <input type="text" id="name" required placeholder="Your Name" class="w-full px-4 py-2.5 rounded-xl bg-white/10 border border-white/20 text-white text-sm placeholder-slate-400 focus:outline-none focus:border-vibrant-blue transition">
+          <input type="email" id="email" required placeholder="Your Email Address" class="w-full px-4 py-2.5 rounded-xl bg-white/10 border border-white/20 text-white text-sm placeholder-slate-400 focus:outline-none focus:border-vibrant-blue transition">
+          <textarea id="message" rows="3" required placeholder="Briefly describe your project or the role you are looking to fill..." class="w-full px-4 py-2.5 rounded-xl bg-white/10 border border-white/20 text-white text-sm placeholder-slate-400 focus:outline-none focus:border-vibrant-blue transition"></textarea>
 
           <button type="submit" class="w-full py-3 rounded-xl bg-white text-slate-900 font-extrabold text-sm flex items-center justify-center gap-2 hover:bg-slate-100 transition shadow-lg">
             <i data-lucide="send" class="w-4 h-4 text-vibrant-blue"></i>
-            <span>Kirim Pesan ke Fadiyah</span>
+            <span>Send Message</span>
           </button>
         </form>
 
         <p class="mt-6 text-xs text-slate-400">
-          📍 Tegal, Jawa Tengah, Indonesia &bull; Terbuka untuk Remote maupun On-Site
+          📍 Based in Tegal, Central Java, Indonesia &bull; Open to Remote &amp; Relocation
         </p>
       </div>
     </section>
@@ -1075,28 +1070,28 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
       <div class="flex items-center gap-2 font-bold text-slate-800">
         <span class="w-5 h-5 rounded-lg bg-vibrant-blue text-white flex items-center justify-center text-[10px]">FD</span>
-        <span>Fadiyah Desi Asmawati</span>
+        <span>Fadiyah Desi Asmawati</span> &mdash; Software Engineer
       </div>
 
       <div class="flex items-center gap-5">
         <a href="https://linkedin.com/in/fadiyahdesiasmawati" target="_blank" rel="noopener noreferrer" class="hover:text-vibrant-blue">LinkedIn</a>
         <a href="https://github.com/fadiyahdesi" target="_blank" rel="noopener noreferrer" class="hover:text-vibrant-blue">GitHub</a>
         <a href="mailto:fadiyahdesi2@gmail.com" class="hover:text-vibrant-blue">Email</a>
-        <a href="https://bit.ly/SuratRekomendasiProfesional" target="_blank" rel="noopener noreferrer" class="hover:text-vibrant-blue">Rekomendasi</a>
+        <a href="https://bit.ly/SuratRekomendasiProfesional" target="_blank" rel="noopener noreferrer" class="hover:text-vibrant-blue">Recommendation</a>
       </div>
 
       <div>
-        &copy; <span id="current-year">2026</span> Fadiyah Desi Asmawati.
+        &copy; <span id="current-year">2026</span> Fadiyah Desi Asmawati. All rights reserved.
       </div>
     </div>
   </footer>
 
   <!-- ==================== JAVASCRIPT ==================== -->
   <script>
-    // Lucide Icons
+    // Initialize Lucide Icons
     lucide.createIcons();
 
-    // Year
+    // Set Year
     document.getElementById('current-year').textContent = new Date().getFullYear();
 
     // Mobile Drawer Toggle
@@ -1109,7 +1104,7 @@
       link.addEventListener('click', () => mobileDrawer.classList.add('hidden'));
     });
 
-    // Toast
+    // Toast Notification
     const toast = document.getElementById('toast');
     const toastMsg = document.getElementById('toast-message');
     let toastTimeout;
@@ -1131,9 +1126,9 @@
       copyBtn.addEventListener('click', () => {
         const email = copyBtn.getAttribute('data-email');
         navigator.clipboard.writeText(email).then(() => {
-          showToast('Email ' + email + ' berhasil disalin!');
+          showToast('Email ' + email + ' copied to clipboard!');
         }).catch(() => {
-          showToast('Gagal menyalin email.');
+          showToast('Failed to copy email.');
         });
       });
     }
@@ -1172,11 +1167,11 @@
         const email = document.getElementById('email').value;
         const msg = document.getElementById('message').value;
 
-        const subject = encodeURIComponent(`Peluang Kerja / Proyek Backend dari ${name}`);
-        const body = encodeURIComponent(`Halo Fadiyah,\n\nNama: ${name}\nEmail: ${email}\n\nPesan:\n${msg}`);
+        const subject = encodeURIComponent(`Software Engineering Opportunity / Project from ${name}`);
+        const body = encodeURIComponent(`Hi Fadiyah,\n\nName: ${name}\nEmail: ${email}\n\nMessage:\n${msg}`);
 
         window.location.href = `mailto:fadiyahdesi2@gmail.com?subject=${subject}&body=${body}`;
-        showToast('Membuka aplikasi email...');
+        showToast('Opening email client...');
       });
     }
   </script>

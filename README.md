@@ -1,47 +1,45 @@
-# 🚀 Portfolio Website — Fadiyah Desi Asmawati (Backend Engineer)
+# 🚀 Modern Software Engineer Portfolio — Fadiyah Desi Asmawati
 
-Website portofolio profesional berorientasi **Backend & Systems Development** dengan desain **Putih Modern & Vibrant Pop** (terinspirasi dari style presentasi kreatif & device mockups), dibangun menggunakan **HTML5, Tailwind CSS, dan Vanilla JS**.
+A professional, vibrant, and modern portfolio for **Software Engineer** specializing in scalable web services, multi-tenant databases, clean architecture, and API design.
 
-Website live: **[https://fadiyahdesi.github.io/](https://fadiyahdesi.github.io/)**
+Live Website: **[https://fadiyahdesi.github.io/](https://fadiyahdesi.github.io/)**
 
 ---
 
-## 📸 Cara Menambahkan Gambar / Screenshot Proyek Sendiri
+## 👩‍💻 Profile
+- **Name**: Fadiyah Desi Asmawati
+- **Role**: Software Engineer
+- **Education**: Bachelor of Applied Science in Informatics Engineering (D4 Teknik Informatika), Universitas Harkat Negeri
+- **Email**: fadiyahdesi2@gmail.com
+- **WhatsApp**: +62 853-1202-2841
+- **LinkedIn**: [linkedin.com/in/fadiyahdesiasmawati](https://linkedin.com/in/fadiyahdesiasmawati)
+- **Internship Recommendation Letter**: [bit.ly/SuratRekomendasiProfesional](https://bit.ly/SuratRekomendasiProfesional)
 
-Setiap kartu proyek kini sudah dilengkapi bingkai perangkat (**Browser Frame** untuk web dan **Phone Frame** untuk mobile). Anda bisa dengan mudah memasukkan screenshot asli dari aplikasi Anda:
+---
 
-1. Buka folder:  
+## 📸 How to Add Your Own Project Screenshots
+
+Every project card is enclosed within realistic device mockups (**Browser Frame** for web platforms and a **Mobile Phone Frame** for the Bicaraku app).
+
+To insert your real application screenshots:
+1. Open the image directory:  
    📂 `C:\Users\LENOVO\.gemini\antigravity\scratch\developer-portfolio\assets\images\`
-2. Cukup simpan screenshot aplikasi Anda dengan nama file berikut:
-   - `prisma.png` &mdash; Screenshot portal **PRISMA UHN**
-   - `adhd.png` &mdash; Screenshot sistem skripsi **ADHD Screening**
-   - `bicaraku.png` &mdash; Screenshot aplikasi mobile **Bicaraku**
-   - `village-saas.png` &mdash; Screenshot sistem **Desa Terpadu**
-   - `opticfinder.png` &mdash; Screenshot aplikasi SPK **OpticFinder**
-3. Jika file gambar tersebut belum Anda masukkan, website akan menampilkan visual preview secara otomatis sehingga tampilan selalu rapi dan tidak rusak.
+2. Place your screenshot files matching these filenames:
+   - `prisma.png` &mdash; Screenshot of **PRISMA UHN**
+   - `adhd.png` &mdash; Screenshot of **Rule-Based ADHD Screening**
+   - `bicaraku.png` &mdash; Screenshot of **Bicaraku Mobile App**
+   - `village-saas.png` &mdash; Screenshot of **Village SaaS Platform**
+   - `opticfinder.png` &mdash; Screenshot of **OpticFinder AHP System**
+3. If no local image is present, the portfolio automatically displays high-resolution fallback previews so the layout always looks pristine!
 
 ---
 
-## 🎨 Ciri Khas Desain Baru (Lebih Alami & Menyala):
-1. **Palet Warna Menyala (*Vibrant Pop*)**:
-   - Background putih bersih modern (`#fafbfc`)
-   - Aksen *Cobalt Blue* (`#2563eb`), *Vibrant Pink* (`#f43f5e`), *Fresh Green* (`#10b981`), dan *Royal Violet* (`#7c3aed`).
-   - Aksen coretan doodle / squiggle organik yang memberi kesan kreatif dan human-crafted (tidak terlihat seperti template kaku AI).
-2. **Device Mockup Frames**:
-   - Tampilan antarmuka proyek dibungkus dalam mockup browser & smartphone yang menarik.
-3. **Penyembunyian IPK**:
-   - Angka IPK disembunyikan sesuai permintaan. Fokus diarahkan pada kompetensi teknis, karya riil, sertifikasi BNSP & SOLID, serta hibah nasional Kemdikbudristek.
-4. **Copywriting yang Hangat & Alami**:
-   - Gaya bahasa profesional, ramah, dan autentik menceritakan pengalaman rekayasa perangkat lunak Fadiyah.
-
----
-
-## 🚀 Cara Update ke GitHub Pages:
-Setiap kali Anda menambah gambar atau mengubah teks:
+## 🚀 Pushing Updates to GitHub Pages:
+Whenever you add photos or tweak content, simply run:
 ```powershell
 cd C:\Users\LENOVO\.gemini\antigravity\scratch\developer-portfolio
 git add .
-git commit -m "update: refresh visual style & add project pictures"
+git commit -m "update: portfolio improvements"
 git push
 ```
-Website live di `https://fadiyahdesi.github.io/` akan otomatis terupdate dalam ~1 menit!
+Your live site at `https://fadiyahdesi.github.io/` will automatically update within 1 minute!
